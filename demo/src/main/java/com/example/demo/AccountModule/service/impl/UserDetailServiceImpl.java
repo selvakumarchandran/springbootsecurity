@@ -4,6 +4,7 @@ import com.example.demo.AccountModule.Entity.UserEntity;
 import com.example.demo.AccountModule.dao.impl.UserDaoImpl;
 import com.example.demo.AccountModule.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

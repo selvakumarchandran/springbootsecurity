@@ -36,9 +36,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers("/svc/v1/public/**").access("hasRole('ROLE_USER')")
                 .and()
-                .formLogin()
-                .and()
-                .csrf();
+                .formLogin();
     }
 
     @Bean

@@ -41,7 +41,7 @@ public class AccountCountroller {
             person.setActive(1);
             person.setLastName("selva");
             person.setEmail("test@gmail.com");
-            person.setPassword("selva");
+            person.setPassword("$2a$10$roya0aRTX7XK.SshvoKCHuYlDdAHvTsgdbxjvB/YE6t1aN1HecTPG");
             userDaoImpl.savePerson(person);
         } catch (Exception ex) {
             ex.printStackTrace();
